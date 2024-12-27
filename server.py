@@ -4,7 +4,7 @@ from player import Player
 import pickle
 from score_manager import update_high_scores
 
-server = "192.168.1.114"
+server = "YOURIPADDRES"
 port = 5555
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
